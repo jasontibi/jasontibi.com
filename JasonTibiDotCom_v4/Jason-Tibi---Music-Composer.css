@@ -1,0 +1,57 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 533px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 647px;
+  height: 395px;
+  margin: 58px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 459px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 448px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 347px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 336px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 223px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 212px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}@font-face {
+  font-family: 'AtlasGrotesk-BlackItalic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/AtlasGrotesk-BlackItalic.otf);
+}@font-face {
+  font-family: 'AtlasGrotesk-LightItalic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/AtlasGrotesk-LightItalic.otf);
+}
